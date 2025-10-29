@@ -1,0 +1,993 @@
+%%%%%%%%%%%%%%%%%%
+
+\documentclass[11pt,a4paper,draft]{article}
+
+%%%%%%%%%%%%%%%%%%
+
+\usepackage{latexsym}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage{epstopdf}
+\usepackage{esint}
+
+\usepackage{mathtools} %for \stackrel
+
+%%%%%%%%%%%%%%%%%%
+\title{\bf REGLAS ZAFIRO ALFA FULL RANDOM}
+\author{Random Blanco}
+\date{}
+
+%%%%%%%%%%%%%%%%%%%
+
+%\usepackage{color}
+%\newcommand{\red}{\textcolor{red}}
+%\newcommand{\blue}{\textcolor{blue}}
+%
+%%%%%%%%%%%%%%%%%%
+
+\usepackage[spanish]{babel}
+\usepackage[utf8]{inputenc}
+
+%%%%%%%%%%%%%%%%%%
+
+\addtolength{\topmargin}{-3cm} \addtolength{\oddsidemargin}{-2cm}
+\addtolength{\textheight}{+6cm} \addtolength{\textwidth}{+4cm}
+
+
+%\parindent=0mm
+\parskip 1mm
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+\pagestyle{empty}
+
+\maketitle
+
+\thispagestyle{empty}
+
+\subsection*{\bf Genéricas}
+\hrule\hrule
+\vspace{2mm}
+
+
+- Pokémon debilitado se muere pa siempre.
+
+- Solo se puede capturar primer pokémon de ruta no legendario ni repetido.
+
+- Hay que poner motes a todos los pokemon.
+
+- No se pueden comprar objetos curativos.
+
+- 25 vidas, combate fijo.
+
+- Level cap para lideres de gimnasio, rivales y bosses (ver sección de tramos).
+
+- No se puede farmear (ni evs ni exp ni escamas corazón ni superentrenamiento ni c inverso etc.).
+
+- No se puede mirar la pokédex ni usar el dexnav en rutas donde no se ha capturado.
+
+- Dos pokémon no pueden llevar el mismo objeto equipado en un combate.
+
+\subsection*{\bf Uso de Curaciones}
+\hrule\hrule
+\vspace{2mm}
+
+- Máximo 3 curaciones por combate.
+
+- No se puede curar fuera de combate.
+
+%- Decidiremos cómo hacer en las Ligas más adelante.
+
+\subsection*{\bf Objetos}% 15
+\hrule\hrule
+\vspace{2mm}
+
+- En las tiendas randomizadas se podrá comprar un máximo de 1 objeto por tienda.
+
+- Los objetos equipados en los pokemon salvajes solo se pueden conseguir cuando los capturas.
+
+\subsection*{\bf Pokémon}
+\hrule\hrule
+\vspace{2mm}
+
+- Si sale shiny se puede capturar.
+
+- No se pueden capturar ni recibir legendarios. Tampoco pokémon que ya se tengan o se hayan tenido, ni del resto de su línea evolutiva, aunque hayan muerto o hayan sido intercambiados. Si es branched evolution sí se pueden tener dos ramas distintas.
+
+- Si un pokémon de evento resulta ser legendario o repetido, entonces se tiene una captura extra como compensación en la siguiente ruta que no se haya pisado.
+
+- Antes de intercambiar pokémon guarda siempre la partida. Si el pokémon recibido es legendario o ya lo tienes apagas y recuperas el intercambiado. Si no guardaste te jodes.
+
+-  Antes de coger tu fósil guarda partida. Si al reanimarlo es legendario o repetido apaga y coge el otro fósil (si no guardaste te jodes). Si vuelve a ocurrir tienes captura compensatoria como antes. 
+
+- Si algún objeto aleatorio que obtengas es un fósil (excepto rompiendo rocas en los parajes espejismo) puedes reanimarlo, pero si es legendario o repetido te jodes. Solo puedes reanimar cada tipo de fósil una vez. 
+
+\subsection*{\bf Baneos} 
+\hrule\hrule
+\vspace{2mm}
+%\noindent{(Si vemos algo que este muy roto se habla y se reemplaza por algo que mínimo esté bien.)}
+
+- Indefenso + Movimiento KO.
+
+- MT esquema: Cada pokémon (que la aprenda) puede llevar un máximo de 1 movimiento aprendido mediante MT esquema (los pokémon que aprenden esquema por nivel pueden recordarla tantas veces como se quiera).
+\newpage
+\subsection*{\bf Observaciones}
+\hrule\hrule
+\vspace{2mm}
+
+- Todos los Rivales, Líderes de Gimnasio, Villanos, Altos Mandos y Campeón tienen 6 pokémon.
+
+- Todos los pokémon de entrenadores tienen objeto.
+
+- Todos los pokémon tienen 2 habilidades aleatorias. 
+
+- Al evolucionar, puede cambiar la habilidad del pokémon y los movimientos que aprende por nivel, pero aprende las mismas MT o incluso más.
+
+- Ningún pokémon tiene wonder guard.
+
+- Si pasa algo raro seguramente sea culpa de Mafiarcos.
+
+
+\subsection*{\bf EL POKEMON ILUSIÓN}
+\hrule\hrule
+\vspace{2mm}
+
+Se trata de una nueva mecánica. Al principio de cada tramo, cada uno designará a un pokémon primera evolución que le ilusione tener. Ejemplo: Raúl elige Ralts en el tramo 2.
+
+Si durante el tramo 2, a Raúl le sale un pokémon de la línea evolutiva de Ralts (Ralts, Kirlia, Gardevoir o Gallade) en alguna de las rutas que se encuentren en dicho tramo, Raúl puede capturar tal pokémon aunque no sea su primer pokémon de ruta.
+
+Sin embargo, si esto no sucede, no podrá capturar a ninguno de ellos en lo que reste de locke.
+
+\subsection*{Parajes espejismo}
+\hrule\hrule
+\vspace{2mm}
+
+Tras capturar a Kyogre se desbloqueará ultravuelo, un método de transporte con el que, entre otras cosas, podremos llegar a los parajes espejismo. Estos consisten en ubicaciones que aparecen cada día de forma aleatoria en algún lugar del mapa. Tienen un destello rojo encima para que puedas encontrarlos.
+
+Hay 4 tipos: Isla espejismo, Bosque espejismo, Cueva espejismo y Monte espejismo. Para cada uno de ellos hay 8 posibles localizaciones, con pokémon y objetos diferentes. También existe un quinto tipo, la Isla Creciente, donde únicamente se puede capturar a Cresselia.
+
+Es decir, cada día aleatoriamente aparecerá en el mapa uno de estos 33 posibles parajes espejismo. Además, hay un total de 6 MT's repartidas por los parajes (los números pueden bailar por el randomzado):
+
+- MT91, en Isla espejismo al noreste de la Cueva Cardumen.
+
+- MT90, en la Isla espejismo al sur de Pueblo Oromar.
+
+- MT66, en la Isla espejismo al sur de la Ruta 134.
+
+- MT74, en el Bosque espejismo al norte de la ruta 113.
+
+- MT95, en la Cueva espejismo al norte de Pueblo Pardal (usando ambas bicis). 
+
+- MT84, en el Monte espejismo al este de Ciudad Calagua (usando bici acrobática).
+
+ Las normas son las siguientes:
+
+- Solo se puede capturar una vez en cada tipo de paraje espejismo. Esto significa que en total uno puede capturar 5 pokémon: el de la Isla, el Bosque, la Cueva, el Monte y a Cresselia en la isla Creciente. 
+
+- Solo se pueden coger los objetos de cada ubicación una vez, es decir, no puedes visitar la misma localización (por ejemplo, la isla espejismo al oeste de pueblo Azuliza) dos veces y coger los objetos que haya, porque algunos se renuevan cada vez que vas. Sí que puedes ir a la Isla espejismo varias veces (en total 8, una por localización), siempre y cuando no sea la misma. Por tanto, hay que llevar cuenta de en cuáles has estado, la lista completa está en wikidex (ver mapa de discord también). Si no estás seguro de si has estado en alguna o no te jodes y no aterrizas.
+
+- En algunos hay rocas que se pueden romper con golpe roca. Como estas rocas siempre dan fósiles, NO se pueden revivir los fósiles obtenidos rompiendo rocas en parajes espejismo.
+\newpage
+\subsection*{Legendarios como Intercambios Prodigiosos}
+\hrule\hrule
+\vspace{2mm}
+
+Un intercambio prodigioso es aquel en el que uno da un pokémon sin saber qué recibirá a cambio.
+
+Hay muchos Legendarios capturables en el Zafiro Alfa que están randomizados pero aparecen en lugares únicamente accesibles con ultravuelo si llevas pokémon en el equipo que cumplen alguna condición. Vamos a tratar a estos legendarios como intercambios prodigiosos. 
+
+Por ejemplo, para capturar a Zekrom hay que hacer ultravuelo llevando un pokémon de nivel 100 en el equipo. Sin embargo, por las level caps, si tienes un pokémon a nivel 100 no puedes usarlo. Lo que haremos será que puedas coger un pokémon de la caja que estés dispuesto a no usar más (por ejemplo, un combee macho) y levelearlo hasta nivel 100, con el objetivo de capturar a Zekrom. El resultado es que estás intercambiando ese combee por lo que te aparezca en lugar del Zekrom, es decir, un intercambio prodigioso.
+
+Si Zekrom resulta ser otro legendario o un pokémon repetido pues te jodes y has perdido a un combee macho. Por supuesto, hay que usar distintos pokémon y vivos para cada intercambio.
+
+Esta es la lista de Legendarios Prodigiosos:
+
+- Zekrom, en Cueva Incierta, al sureste de ciudad Malvalona. Hay que llevar 1 pokémon a nivel 100, que no volverá a usarse.
+
+-  Uxie, Mesprit y Azelf en la Cueva Ignota, cerca de Arrecípolis, llevando 3 pokémon con amistad al máximo (pokexeheados), que no podrán volver a usarse. Dependen de la hora del día.
+
+- Cobalion, Terrakion y Virizion en la Llanura Sinnombre, al sur de pueblo Oromar, llevando 3 pokémon con evs al máximo (pokehexeados), que no podrán volver a usarse. Dependen del día de la semana.
+
+- Thundurus, en las Oscuras nubes, en medio del aire, llevando un Castform (solo disponible para el afortunado que tenga uno).
+
+
+
+
+
+
+\subsection*{\bf Liga Pokémon}
+\hrule\hrule
+\vspace{2mm}
+
+- Tendremos 24 Restaurar todo para curar fuera de combate. Para restaurar PP hay que usar los obtenidos durante la aventura.
+
+- Dentro de los combates solo se puede curar una vez, usando tus objetos de la aventura.% siguiendo el método de Folagor: solo puedes curar cuando el oponente  ha curado a su pokémon. 
+
+- En la primera Liga, el equipo para el showdown será el equipo con el que se entra a la liga, a nivel 50. Debes usar el equipo sin cambiarlo en ningún momento durante toda la liga, es decir, no puedes cambiar objetos ni habilidades ni movimientos (ni por MT ni aprendiendo). Si algún pokémon aprende un movimiento que te interese, lo dices EN EL MOMENTO y se te da una escama corazón para que lo recuperes en el postgame (si no te jodes).
+
+- En la Liga del postgame, el equipo para el showdown será un equipo post liga, a nivel 80. Ese Equipo Definitivo estará formado obligatoriamente por todos los pokémon que se llevaron a la liga que sigan vivos. Los pokémon muertos se podrán reemplazar por suplentes de la caja. Los movimientos y habilidades de los supervivientes no se pueden cambiar (salvo aprendidos por nivel). Los objetos solo se pueden cambiar si ha habido muertes y entran suplentes.
+
+
+\subsection*{\bf Combates Showdown}
+\hrule\hrule
+\vspace{2mm}
+
+- Se combatirá con el equipo que se lleve al combate final de cada tramo.
+
+- Cada victoria vale 1 punto, exceptuando las victorias de los combates del cuarto tramo, que valen 2 puntos.
+
+- Se combatirá sin Evs, pero con los Ivs reales de cada pokémon (se puede ver usando pokehex).
+
+- Al final de cada día de combate habrá una ruleta o un sistema de recompensas que se repartirán en función de los resulatdos de la jornada. Esas recompensas las iremos pensando para cada jornada e irán mejorando conforme avance el locke.% Algunos ejemplos son cambio de naturaleza, escama corazón, cápsula habilidad, master ball, megapiedra, objeto evolutivo, compra extra, ivs perfectos, o captura extra.
+
+\newpage
+\subsection*{\bf Recompensas Combates}
+\hrule\hrule
+\vspace{2mm}
+
+
+Si dos o más quedan empate se llevan la recompensa alta, es decir, si dos empatan en segundo puesto se llevan la recompensa del segundo, no la del tercero.
+
+Las recompensas se pueden canjear en cualquier momento desde que se reciben, pero para las escogidas hay que hacer la elección antes de volver a jugar.
+
+\noindent{\bf Ruleta Combate 1:}
+
+
+
+{\bf 1º)} 5.000 pokecuartos + 3 esc corazón + 2 tiros de ruleta + una recompensa de la ruleta escogida.
+
+{\bf 2º)} 10.000 pokecuartos + 3 esc corazón + 3 tiros de ruleta.
+
+{\bf 3º)} 15.000 pokecuartos + 3 esc corazón + 2 tiros de ruleta.
+
+{\bf 4º)} 20.000 pokecuartos + 2 esc corazón + 2 tiros de ruleta.
+
+{\bf 5º)} 25.000 pokecuartos + 2 esc corazón + 1 tiro de ruleta.
+
+{\bf 6º)} 30.000 pokecuartos + 2 esc corazón + una recompensa de la ruleta escogida (compensación).
+
+
+- Cambio Naturaleza.
+
+- Ivs Perfectos.
+
+- Cápsula Habilidad.
+
+- Captura Extra.
+
+- Master Ball.
+
+- Objeto Evolutivo / Megapiedra.
+
+- Compra Extra.
+
+-  2 Escamas Corazón.
+
+- 2 hiperpociones y 2 más pp. 
+
+- 30.000 pokecuartos.
+
+- Shiny y cambio de sexo.
+
+- Ilusión: Añadir otro pokémon ilusión en un tramo / Poder repetir pokémon ilusión /  Quitarte el ban de un pokémon ilusión fallido.
+
+\noindent{\bf Ruleta Combate 2:}
+
+Un tiro trucado es uno en el que se han eliminado 4 casillas de la ruleta a elección del jugador.
+
+{\bf 1º)} 10.000 pokecuartos + 3 esc corazón + 1 tiro de ruleta + 1 tiro trucado + una elección.
+
+{\bf 2º)} 20.000 pokecuartos + 3 esc corazón + 1 tiro de ruleta + 2 tiros trucados.
+
+{\bf 3º)} 30.000 pokecuartos + 3 esc corazón + 2 tiros de ruleta trucados.
+
+{\bf 4º)} 40.000 pokecuartos + 2 esc corazón + 1 tiro de ruleta + 1 tiro trucado.
+
+{\bf 5º)} 50.000 pokecuartos + 2 esc corazón + 2 tiros de ruleta.
+
+{\bf 6º)} 60.000 pokecuartos + 2 esc corazón + 1 tiro de ruleta trucado.
+
+
+- Cambio Naturaleza.
+
+- Ivs Perfectos.
+
+- Cápsula Habilidad.
+
+- Captura Extra.
+
+- 2 Master Balls.
+
+- Objeto competitivo.
+
+- Objeto Evolutivo / Megapiedra.
+
+- 2 Compras Extra.
+
+- 4 Escamas Corazón.
+
+- 3 Restaurar todo y 2 máx pp.
+
+- Doble Shiny y cambio de sexo.
+\newpage
+\noindent{\bf Ruleta Combate 3:}
+
+Un tiro trucado es uno en el que se han eliminado 3 casillas de la ruleta a elección del jugador.
+
+{\bf 1º)} 36 PB +  3 esc corazón + 1 tiro de ruleta + 1 tiro trucado + una elección.
+
+{\bf 2º)} 32 PB + 3 esc corazón + 1 tiro de ruleta + 2 tiros trucados.
+
+{\bf 3º)} 28 PB + 3 esc corazón + 2 tiros de ruleta trucados.
+
+{\bf 4º)} 24 PB + 2 esc corazón + 1 tiro de ruleta + 1 tiro trucado.
+
+{\bf 5º)} 20 PB + 2 esc corazón + 2 tiros de ruleta.
+
+{\bf 6º)} 16 PB +  2 esc corazón + 1 tiro de ruleta trucado.
+
+
+- Cambio Naturaleza.
+
+- Ivs Perfectos.
+
+- Cápsula Habilidad.
+
+- 2 Capturas Extra.
+
+- Objeto Competitivo / Evolutivo / Megapiedra (escoge 2 de 3).
+
+- 2 Compras Extra / 2 Master Balls.
+
+- 32 PB.
+
+- 4 Restaurar todo y 3 máx pp.
+
+- Triple Shiny y cambio de sexo.
+
+- 2 tiradas no trucadas más (esta casilla es de un solo uso).
+
+\subsection*{\bf Tramos y Level Caps} 
+\hrule\hrule
+\vspace{2mm}
+
+Habrá un total de 4 tramos, al final de los cuales se realizarán combates como de costumbre. 
+
+Se permite usar pokehex para bajar niveles y respetar level cap.
+
+\noindent{\bf Tramo 1:} Hasta el tercer gimnasio, {\bf nivel  21}
+
+- Aura combate inicial, nivel 5
+
+- Primer gimnasio, nivel 14
+
+- Segundo gimnasio, nivel 16
+
+- Aura ruta 110, nivel 20
+
+- Tercer gimnasio, nivel 21
+
+\noindent{\bf Tramo 2:} Hasta el combate contra Matías en el Monte Pírico, {\bf nivel  38}
+
+- C múltiple con Aura vs Silvina + Recluta en cascada meteoro, nivel 23
+
+- Silvina en monte Cenizo, nivel 24
+
+- Aquiles en monte Cenizo, nivel 27
+
+- Cuarto gimnasio, nivel 28
+
+- Quinto gimnasio, nivel 30
+
+- C múltiple con Máximo vs Matías + Recluta en Isla del Sur, nivel 31
+
+- Silvina en instituto medioambiental, nivel 32
+
+- Aura en ruta 119, nivel 33
+
+- Sexto gimnasio, nivel 35
+
+- Aura en ciudad Calagua, nivel 37
+
+- Matías en monte Pírico, nivel 38
+
+\noindent{\bf Tramo 3:} Hasta la Liga pokémon, {\bf nivel 57}
+
+- Matías en guarida Aqua, nivel 41
+
+- Séptimo gimnasio c doble, nivel 42
+
+- Aquiles en caverna Abisal, nivel 43
+
+- Octavo gimnasio, nivel 45
+
+- Blasco en el fin de la Calle Victoria, nivel 48
+
+- Altos Mandos, niveles 50, 51, 52, 53
+
+- Campeón Máximo, nivel 57
+
+\noindent{\bf Tramo Final:} Postgame Episodio Delta y Revancha Liga, {\bf nivel 77}
+
+- Matías en Ciudad Petalia, nivel 55
+
+- Plubio en el Pilar Celeste, nivel 57
+
+- Lorekeeper Zinnia, nivel 60
+
+- 5 Entrenadores del resort (uno cada día), nivel 60
+
+- Revancha Altos Mandos, niveles 70, 71, 72, 73
+
+- Revancha Campeón Máximo, nivel 77
+
+\subsection*{\bf Rutas en cada tramo}
+\hrule\hrule
+\vspace{2mm}
+
+\noindent{\bf Tramo 1} (21 capturas)
+
+- Inicial %Timburr
+
+- Ruta 101 %Linoone
+
+- Ruta 102 %Noibat
+
+- Ruta 103 %Golett
+
+- Ruta 104 %Cherrim
+
+- Bosque Petalia %Vibrava
+
+%- Ciudad Feérica (intercambio)(Fósiles: Aleta, Raíz, Pluma, Mandíbula, Tapa, Hélix, Ámbar viejo, Coraza) 
+
+- Ruta 116 %Milotic!
+
+- Túnel Fervegal %Dwebble
+
+\noindent{Primer gimnasio} % Equipo: [Noibat, Timburr, Linoone, Golett, Dwebble, Milotic]
+
+- Pueblo Azuliza (pescando) %Slugma
+
+- Ruta 106 (pescando) %Hariyama
+
+- Ruta 107 (pescando) %Victreebel
+
+- Cueva granito %Cinccino
+
+- Ruta 115 (pescando) %Alakazam
+
+- Ciudad petalia (pescando) %Grimer
+
+\noindent{Segundo gimnasio} %Equipo: [Linoone, Cinccino, Victreebel, Hariyama, Dwebble, Grimer]
+
+- Ruta 109 (pescando) %Corsola
+
+- Ciudad Portual (pescando) %Chingling
+
+- Ruta 110 %Metang perdido
+
+- Pikachu coqueta (participa en un concurso) %Haunter
+
+- Ruta 111 (pescando) %Rampardos
+
+- Ruta 117 %Solosis
+
+- Ruta 118 (pescando)%Gothorita
+
+\noindent{Tercer gimnasio} %Equipo: [Alakazam, Rampardos, Chimecho, Milotic, Cinccino, Timburr]
+
+\noindent{\bf Tramo 2} (29 capturas)
+
+- Ruta 112 %Hawlucha
+
+- Senda ígnea %Tailow
+
+- Ruta 113 %Staraptor
+
+- Ruta 114 %Maractus
+
+- Cascada Meteoro %Magneton
+
+- Desfiladero %Honedge
+
+%Fósil Aleta: Rhydon
+
+- Huevo Wynaut en pueblo Lavacalda %Stoutland
+
+\noindent{Cuarto gimnasio} %Equipo: [Alakazam, Rhydon, Hawlucha, Staraptor, Stoutland, Magneton]
+
+-  Desierto de la ruta 111 %Trevenant
+
+- Fósil Garra / Raíz en Desierto ruta 111 %Raíz, Vespiqueen
+
+\noindent{Quinto gimnasio} %Equipo: [Alakazam, Rampardos, Staraptor, Hawlucha, Stoutland, Magneton]
+
+- Malvalanova %Cofagrigus
+
+- Ruta 134 %Sawsbuck
+
+- Ruta 108 %Beautifly
+
+- Malvamar %Umbreon
+
+- Ruta 105 %Swoobat
+
+%Fósil Pluma: Magnezone (repetido)
+
+- Latias %Swampert
+
+- Ruta 119 %Explotó el Nidoking
+
+- Castform Instituto Meteorológico %Lileep
+
+%Ciudad Arborada intercambio: Gengar por un sandslasj? ni de coña
+
+- Ruta 120 %Throh
+
+- Gruta Solar %Tyrtouga
+
+- Kecleon Ruta 120 (tutorial detector Devon) %Feraligart
+
+- Kecleon Ruta 120 (debajo de las escaleras que llevan al lago de la gruta solar) %Grengar (repe, capturo en la sig-->zona safari) Syther
+
+\noindent{Sexto gimnasio} %Equipo: [Alakazam, Rampardos, Hawlucha, Stoutland, Umbreon, Cofagrigus]
+
+- Kecleon Ruta 120 (en el laberinto de hierba) %dragonite ausente
+
+- Ruta 121 %Lapras
+
+- Zona Safari %Rufflet
+
+%POKEMON ILUSIÓN: SLAKING!
+
+ - Ciudad Calagua %Pupitar
+ 
+ - Guarida Aqua %Swadloon
+
+- Ruta 122 %whirlipede
+
+- Monte Pírico %Ponyta
+
+- Ruta 123 %Pichu
+
+%Fósil mandíbula: Mandibuzz
+
+ \noindent{\bf Tramo 3} (37 capturas, 8 intercambios prodigiosos opcionales)
+ 
+ - 2 Electrodes en Guarida Aqua %Tepig y Armaldo
+ 
+ - Ruta 124 %Watchog
+ 
+ - Ruta 126 %Horsea
+ 
+ - Ciudad Algaria %Tangrowth
+ 
+ - Ruta 125 %Glalie
+ 
+ - Cueva Cardumen %Shuppet
+ 
+ %Fósil Tapa: Pidove 
+ 
+ - Ruta 127 %Steelix
+ 
+\noindent{Séptimo gimnasio}
+ 
+% - Fósil Helix: Dustox
+ 
+- Ruta 128 %Mareep
+
+- Ciudad Colosalia %Skuntank
+
+- Caverna Abisal %Heracross
+
+- Ruta 129 %Spheal
+
+- Ruta 130 %Sylveon
+
+- Ruta 131 %Dewgong
+
+- Pueblo Oromar %Seviper
+
+% Pokémon Ilusión: Blaziken
+
+- Ruta 132 %Shellos
+
+- Ruta 133 %Electrivire
+
+- Cámara sellada %Sligoo
+
+- Arrecípolis %Heliolisk
+
+- Cueva Ancestral %Beeheyeem
+\newpage
+\noindent{ Evento de Kyogre}
+
+- Kyogre %Hoopa, así que captura extra en bosque espejismo: Fearow
+
+- Firmamento (los pájaros que hay volando al hacer ultravuelo) %Grotle
+
+- Isla espejismo (ver sección de parajes espejismo) %Drifblim
+
+- Bosque espejismo (paraje espejismo) % Nidorino
+
+- Cueva espejismo (paraje espejismo) %Cryogonal
+
+- Monte espejismo (paraje espejismo) %Metapod
+
+- Cresselia en Isla Creciente (paraje espejismo) %Foongus
+
+- (Opcional) Zekrom en Cueva Incierta (ver sección de legendarios prodigiosos) %Sunkern
+
+- (Opcional) Uxie, Mesprit y Azelf en la Cueva Ignota (legendarios prodigiosos) %Torkoal, Vulpix, Misdreavus
+ 
+- (Opcional) Cobalion, Terrakion y Virizion en la Llanura Sinnombre (legendarios prodigiosos)%Klang, Serperior, Kriketune
+
+- (Opcional) Thundurus en las Oscuras nubes (legendario prodigioso)
+
+- Heatran en la Gruta Solar %Hydreigon
+
+%Ámbar viejo: Mienshao
+
+- Kecleon pueblo Lavacalda (en las termas de mujeres) %Raikou ---> Oshawott
+
+- 4 voltorbs en Malvalanova %Unfezant (repe---> Sandile), Volcarona (autodestrucción), Hoot hoot, Slowking
+
+- Spiritomb Malvamar %Shinx
+
+- Lugia Malvamar (tras hacer el quest de encontrar el escáner) %Shelgon
+
+\noindent{Octavo gimnasio}
+
+- Kecleon ruta 119 (usando cascada y la bici acrobática en la parte superior de la ruta) %Grovyle
+
+- Calle Victoria %Ducklett
+
+\noindent{\bf Tramo Final} (9 capturas)
+  
+- Pilar Celeste %Hippowdon
+ 
+- Rayquaza %Parasect
+ 
+ - Deoxys %Bayleef
+ 
+ - Inicial Johto %Totodile--> Monferno
+ 
+ %Fósil coraza: Milktank
+ 
+ - Beldum casa Máximo ciudad Algaria %Glameow
+ 
+ - Kecleon Centro Espacial (detector Devon) %Goomy--> Moncho (surfeando en resort, ojo si tiene imposstor?)
+ 
+ - Resort Batalla %Mamoswine
+ 
+ - Camerupt regalado por recluta Magma %Tangela--> Vaporeon
+ 
+ - Sharpedo regalado por recluta Aqua %Heatmor
+ 
+ %MAlakazam--Liviano
+ %Mswampert--Zoquete
+ %MGengar--Respondón
+ %Mglalie--Cabeza Roca
+ %MBanette--Chorro arena
+ %MSteelix--Piel helada
+ %MSceptile--Alma Cura
+ %MScizor--?
+ %MHeracross--?
+ 
+ 
+ %Milotic con aerochorro puede quedarse a un máximo de +4+4 (incluso +5+5 si arriesgamos, es 18% de ko con crit) para ser safe vs crítico de impostor milotic scarf. Si ocurre algo raro, slaking resiste milotic a +5+5 y hace ko con placaje electrico 
+ 
+ %Flygon a +1 de ataque mata a glaceon con V de fuego. Solo quedarse si estamos a +1 y tenemos baya. Alternativamente, a + 3 de defensas resiste.
+ 
+% 
+% \[
+% \hat{\iota}_S(x)= \mathrm{min}\{j \;|\; g_j(x)=\mathrm{max}\{g_i(x)\;|\;(f_i,g_i)\in S\}\}
+% \]
+% \[
+% h_S(x)= g_{\hat{\iota}_S(x)}(x)f_{\hat{\iota}_S(x)}(x)
+% \]
+ 
+ 
+% 
+% \[
+% h_S(x)= \mathrm{max}_S\{g_i(x)\}f_{\mathrm{min}\{j \;|\; g_j(x)=\mathrm{max}_S\{g_i(x)\}\}}(x)
+% \]
+
+
+\vspace{1cm}
+\subsection*{\bf Pokémon peligrosos}
+\hrule\hrule
+\vspace{2mm}
+
+\noindent{\bf El Pokémon llamado Marcos:}
+
+\noindent{Tipo: Siniestro - Fantasma (va de edgy boy pero realmente es un fantasma, y no le gusta el fútbol)}
+
+\noindent{Habilidades:}
+
+	- Veleta (ni él puede predecir que quiere hacer)
+		
+	- Afortunado (Mafiarcos)
+		
+\noindent{Movs característicos:}
+	
+	- Juego sucio: Necesita tocar la rom o si no no gana
+	
+	- Maldición: eso es lo que dice cada vez que recuerda que dió su rom a Arri
+
+	- Cambio de marcha: un día le flipa algo, al otro cambia la marcha
+	
+	- Batido: proteico, pal gym
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\vspace{3mm}
+\noindent{\bf Leire:}
+
+\noindent{Tipo: Hada - Psíquico (es muy guapa y va al psicólogo)\noindent{
+
+\noindent{Habilidades:}
+
+	- Despiste (uy me he dejado no se qué en tu casa)
+	
+	- Disfraz (si hace cosplay evita cualquier ataque)
+	
+\noindent{Movs característicos:}
+
+	- Carantoña: el amor duele
+	
+	- Arrumaco: te puede hacer retroceder
+	
+	- Halloween: es su movimiento estrella, a su lado eres invisible como un fantasma
+
+	- Cháchara: no le preguntes sobre el porcentaje de lesiones de mujeres en accidentes de coches 
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{3mm}	
+\noindent{\bf Magoro:}
+
+\noindent{Tipo: Agua - Dragón (se adapta al medio que lo rodea, hasta que se le acaba la paciencia y se enfurece)}
+
+\noindent{Habilidades: }
+
+	- Competitivo (si le intentas bajar algo se calienta y le sube el ataque)
+	
+	- Bromista (puede ser altamente capullete)
+	
+\noindent{Movs característicos:}
+
+	- Voto agua: votos a favor de que agua es el mejor tipo?
+
+	- Furia dragón: se le acaba la paciencia
+
+	- Mofa: se fanfarronea de los rivales 
+	
+	- Última palabra: siempre intenta tenerla
+
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{3mm}
+\noindent{\bf Arri:}
+
+\noindent{Tipo: Eléctrico - Bicho (antaño era muy rápido, ahora es rubio y le encanta El Bicho)}
+
+\noindent{Habilidades: }
+
+	- Autoestima (es el mejor, qué bueno es)
+	
+	- Letargo perenne (llego tarde, me he quedado dormido (son las 20:00))
+	
+\noindent{Movs característicos:}
+
+	- Voltiocambio: voltiocambiando de tema, qué malo es el barça no?
+	
+	- Auxilio: por favor, no sé cómo quitarme de encima a las titis
+
+	- Sonámbulo: cuando debería estar dormido, se levanta y escribe sobre fútbol
+	
+	- Rayo confuso: manda señales confusas para sus admiradoras de clase
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\vspace{3mm}
+\noindent{\bf Raúl:}
+
+\noindent{Tipo: Hielo - Psíquico (muy frágil mentalmente)}
+
+\noindent{Habilidades:} 
+
+	-Experto (escuchando el grito del pokémon sabe la natauralza, Ivs y su número de la seguridad social)
+	
+	- Escudo limitado (si le bajas la vida a la mitad, por ejemplo haciéndolo trabajar, se le bajan las defensas, aunque le suben los ataques y empieza a quejarse mucho)
+
+\noindent{Movs característicos:}
+
+	- Mundo gélido: Campillejo
+	
+	- Descanso: merecido, los fines de semana
+
+	- Día de pago: su día favorito del mes (potenciado por experto)
+	%- Llanto falso: te llora un poco para que se te baje la defensa especial y lo cuides (es especial)
+	
+	- Confidencia: te cuenta una rayada para bajarte el ataque (es especial) y que no lo ataques %(es especial)
+	
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\vspace{3mm}
+\noindent{\bf Cido:}
+
+\noindent{Tipo: Volador - Tierra (apunta a lo más alto pero tiene los pies en la tierra)}
+
+\noindent{Habilidades:}
+
+	- Impostor (es actor)
+	
+	- Ritmo propio (fluye con la vida a su ritmo, no puedes confundirle)
+	
+\noindent{Movs característicos:}
+	
+	- Respiro: es necesario hacerlo antes de cada actuación
+	
+	- Arenas ardientes: así se ponen las playas en cuanto se quita la camiseta
+	
+	- Niebla clara: la que sale de los pitis que fuma ocasionalmente
+	
+	- Paga extra: este movimiento ayuda mucho ahora. En el futuro se convertirá en Fiebre dorada
+	
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%	
+\vspace{3mm}
+\noindent{\bf Lóckez:}
+
+\noindent{Tipo: Normal - Hada (un ciudadano del mundo que resulta ser la mejor persona del universo)}
+
+\noindent{Habilidades:}
+
+	- Gran encanto (al mínimo contacto te enamoras de él)
+	
+	- Ausente (aparece una de cada muchas semanas, alguien lo ha visto desde que empezó a follar?)
+	
+\noindent{Movs característicos:}
+
+	- Giga impacto: en tu vida
+	
+	- Encanto: lo es, sobre todo para los padres
+
+	- Chorro de vapor: analizado y verificado científicamente, cuidado que está caliente ;)
+	
+	- Látigo cepa: pregunten a Daria
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{3mm}
+\noindent{\bf Edu:}
+
+\noindent{Tipo: Acero - Planta (usa ordenadores para ayudar a los biólogos)}
+
+\noindent{Habilidades:}
+
+	- Carrillo (cada vez que come un kiwi lo hace con piel pa recuperar más ps)
+	
+	- Nerviosismo (su manera de comer los plátanos te pone nervioso y te quita las ganas de comer)
+
+\noindent{Movs característicos:}
+
+	- Fiebre dorada: disfruta de ella en su doctorado
+	
+	- Hoja mágica: cada uno de sus papers
+	
+	- Reserva: todo tipo de información interesante sobre él para sí mismo y así aumentar sus defensas.
+	
+	- Voz cautivadora: llama a su amada Seraphine y cantan Queue of Love
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vspace{3mm}
+\noindent{\bf Pingo:}
+
+\noindent{Tipo: Lucha - Roca (lucha por sus relaciones, por duras que sean)}
+
+\noindent{Habilidades:}
+
+	- Sebo (su capa de grasa le permite resistir los ataques de hielo de Beba y los de fuego de Mulia)
+	
+	- Cambio táctico (parece que le ha salido bien)
+
+\noindent{Movs característicos:}
+
+	- Gancho alto: Blitzcrank top full ap 
+	
+	- Antiaéreo: contra todos los aviones que vengan de Australia
+	
+	- Polución: la que está dejando en el mundo con tanto viajecito
+	
+	- Imagen: ahora es influencer
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%
+%Bea: Consigue ponerte sus ALAS (va disfrazada de hada)
+%
+%Cris: Consigue que intente tocarse los PIES (sin doblar las rodillas)
+%
+%Patri: Que te deje fumar de su VAPE
+%
+%Ossama: Que te explique cómo hacer un TRUCO de SKATE
+%
+%Menchu: Consigue hacer un DUELO de MIRADAS con él
+%
+%Marcos: Que haga FLEXIONES	
+%
+%López: Que diga que JOSEFINA tenía CULAZO
+%
+%Mike: Que diga la palabra INFLUENCER
+%
+%Eva: Que se tome un CHUPITO contigo
+%
+%Ana: Que te enseñe una FOTO de su HERMANA
+%
+%Ángela: Que pruebe de TU COPA
+%
+%Arri: Que diga que el MADRID es mejor que el ATLETI
+%
+%Arturo: Conseguir que te se MIDA con alguien
+%
+%Sánchez: Consigue que intente chuparse el CODO
+%
+%Cido: Que te enseñe sus CALZONCILLOS
+%
+%Charlie: Consigue que se haga una FOTO contigo con su móvil
+%
+%Raúl: Que BAILE una canción contigo
+%
+%Carmen Robledo: Consigue que diga un par de frases en PORTUGUÉS 
+%
+%Tino: Consigue que baile la MACARENA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}
